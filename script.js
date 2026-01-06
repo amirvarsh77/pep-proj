@@ -9,8 +9,9 @@ forms.forEach(form => {
         if (emailInput.value.trim() === "") {
             alert("Please enter your email address");
         } else {
-            alert("Thanks! This is a demo Netflix clone project -");
+            alert("Thanks! This is a demo Streamflix clone project -");
             emailInput.value = "";
         }
     });
 });
+
